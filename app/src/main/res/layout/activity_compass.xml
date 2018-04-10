@@ -16,13 +16,13 @@
         android:textColor="#000"
         android:textStyle="bold"
         android:text="0°"
-        android:id="@+id/txt_azimuth"/>
+        android:id="@+id/txt_Z"/>
 
     <ImageView
         android:id="@+id/img_compass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txt_azimuth"
+        android:layout_below="@+id/txt_Z"
         android:src="@drawable/compass2"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="45dp" />

@@ -33,7 +33,7 @@ public class CompassActivity extends AppCompatActivity implements SensorEventLis
 
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         compass_img = (ImageView) findViewById(R.id.img_compass);
-        txt_compass = (TextView) findViewById(R.id.txt_azimuth);
+        txt_compass = (TextView) findViewById(R.id.txt_Z);
 
         start();
     }
