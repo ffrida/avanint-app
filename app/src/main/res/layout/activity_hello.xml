@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="139dp"
         android:layout_height="48dp"
         android:layout_marginStart="39dp"
@@ -19,6 +20,7 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="90dp"
         android:layout_height="48dp"
         android:layout_marginStart="39dp"
